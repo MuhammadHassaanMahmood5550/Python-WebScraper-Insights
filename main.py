@@ -4,7 +4,7 @@ import sqlite3
 import json
 import xml.etree.ElementTree as ET
 
-url = 'https://www.pakwheels.com/used-cars/search/-/'
+url = 'your-script-url-here'
 response = requests.get(url)
 print("response.status_code", response.status_code)
 if response.status_code == 200:
